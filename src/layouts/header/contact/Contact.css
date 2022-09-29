@@ -1,0 +1,28 @@
+
+
+.header .contact {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1.6rem 0;
+}
+
+.header .contact-list {
+    display: flex;
+}
+
+.header .contact__item {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+.header .contact__item img {
+    margin-right: 1rem;
+}
+
+.header .contact__item:first-child {
+    margin-right: 4.725rem;
+}
+
+.header .contact__item:last-child {
+    margin-left: auto;
+}
