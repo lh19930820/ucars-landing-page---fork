@@ -98,3 +98,25 @@ body {
 .u-border-radius-semi {
   border-radius: 0px 5px 5px 0px;
 }
+
+.u-box-shadow-1 {
+  box-shadow: 0px -2px 10px rgba(35, 35, 35, 0.1), 0px 15px 25px rgba(35, 35, 35, 0.08);
+}
+
+.u-abs-center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.u-abs-center-ver {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+}
+
+.u-abs-center-hor {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}

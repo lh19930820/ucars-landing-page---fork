@@ -41,7 +41,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
-    transition: .3s ease-in-out 0s;
+    transition: .2s ease-in-out 0s;
 }
 
 .sub-menu .checkbox input[type="checkbox"]:checked ~ .checkmark::after {

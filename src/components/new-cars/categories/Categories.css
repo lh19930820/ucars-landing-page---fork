@@ -1,7 +1,7 @@
 .categories {
     width: 90%;
     max-width: 124.2rem;
-    padding: 4rem; 
+    /* padding: 4rem;  */
     background-color: #fff;
     position: absolute;
     left: 50%;
@@ -19,6 +19,17 @@
 
 .categories .category {
     position: relative;
+    padding: 4rem;
+    cursor: pointer; 
+}
+
+.categories .active {
+    background-color: #fff;
+    box-shadow: 0px -2px 1rem rgba(35, 35, 35, 0.1), 0px 1.5rem 2.5rem rgba(35, 35, 35, 0.08);
+}
+
+.categories .inactive {
+    background-color: #E3E3E3;
 }
 
 .categories .category:first-child {
@@ -31,7 +42,7 @@
 }
 
 .categories .category:nth-child(3) {
-    flex-basis: 35%;
+    flex-basis: 30%;
 }
 
 
@@ -42,8 +53,8 @@
     height: 6rem;
     background-color: #F1F1F1;
     position: absolute;
-    top: 3px;
-    right: 15%;
+    top: 32%;
+    right: 0;
 } 
 
 .categories .category__title {
@@ -59,13 +70,29 @@
     position: relative;
 }
 
+.categories .category__placeholder .min {
+    position: relative;
+    margin-right: 5rem;
+}
+
+.categories .category__placeholder .min::after {
+    display: block;
+    content: '';
+    width: 1.6rem;
+    height: 1px;
+    position: absolute;
+    right: -3rem;
+    top: 50%;
+    background-color: #5F5F5F;
+}
+
 .categories .category__placeholder::after {
     display: inline-block;
     content: '';
     width: 12px;
     height: 8px;
     position: absolute;
-    right: 30%;
+    right: 10%;
     top: 50%;
     transform: translateY(-50%);
     background: url('../../../assets/images//icons/chevron-down.svg');
@@ -73,6 +100,8 @@
 
 .categories .category__btn {
     padding: 2rem 4.4rem;
+    align-self: center;
+    margin-right: 4rem;
 }
 
 .categories .sub-menu {
@@ -82,8 +111,8 @@
     padding: 2.6rem 2.4rem;
     border-radius: 5px;
     position: absolute;
-    top: 174%;
-    left: -16%;
+    top: 100%;
+    left: 0;
 }
 
 .categories .sub-menu .top {
