@@ -38,11 +38,12 @@
   outline: none;
   border: none;
   transition: all .2 linear;
-}
-
-li {
   list-style-type: none;
 }
+
+/* li {
+  list-style-type: none;
+} */
 
 html {
   font-size: 62.5%;
@@ -50,8 +51,15 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 991px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+
 body {
   font-family: var(--primary-ff);
+  font-size: 1.6rem;
 }
 
 .container {
@@ -59,11 +67,24 @@ body {
   margin: 0 auto;
 }
 
+.small-container {
+  max-width: 90%;
+}
+
 .btn--primary {
   background-color: var(--clr-red);
   color: #fff;
   text-align: center;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.btn--info {
+  background-color: transparent;
+  color: #B4B4B4  ;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .u-border-radius-md {

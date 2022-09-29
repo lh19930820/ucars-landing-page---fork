@@ -1,0 +1,43 @@
+
+.sub-menu .radio {
+    display: block;
+    position: relative;
+    padding-left: 2.4rem;
+    white-space: nowrap;
+}
+
+.sub-menu label:not(:last-child) {
+    margin-bottom: 2.4rem;
+}
+
+.sub-menu .radio input[type="radio"] {
+    display: none;
+}
+
+.sub-menu .radio .checkmark {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    border: 1px solid var(--clr-red);
+    position: absolute;
+    top: 4px;
+    left: 0;
+}
+
+.sub-menu .radio .checkmark::after {
+    display: block;
+    content: '';
+    height: .8rem;
+    width: .8rem;
+    border-radius: 50%;
+    background-color: var(--clr-red);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: .3s ease-in-out 0s;
+}
+
+.sub-menu .radio input[type="radio"]:checked ~ .checkmark::after {
+    transform: translate(-50%, -50%) scale(1);
+}
