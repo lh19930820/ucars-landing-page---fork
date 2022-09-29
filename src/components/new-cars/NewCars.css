@@ -1,5 +1,15 @@
 .p-new-cars {
+    width: 90%;
     height: 100rem;
-    background-color: grey;
+    margin: 0 auto;
+    /* background-color: grey; */
     position: relative;
+}
+
+.p-new-cars .cars-list {
+    padding-top: 16rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 3rem;
+    justify-content: center;
 }
