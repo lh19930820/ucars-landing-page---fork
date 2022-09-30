@@ -1,0 +1,34 @@
+.p-hiw {
+    margin-top: 5rem;
+}
+
+.p-hiw .container {
+    background: var(--clr-black);
+    color: #fff;
+    padding: 2rem 7rem 10rem;
+    /* text-align: center; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.p-hiw__title {
+    font-family: var(--typography-h2-ff);
+    font-weight: var(--typography-h2-fw);
+    font-size: var(--typography-h2-fs);
+    line-height: var(--typography-h2-lh);
+    color: var(--clr-red);
+    text-align: center;
+}
+
+.p-hiw__text {
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.p-hiw-items {
+    display: flex;
+    margin-top: 14.2rem;
+    /* gap: 0 8 rem; */
+    /* justify-content: space-between; */
+}
