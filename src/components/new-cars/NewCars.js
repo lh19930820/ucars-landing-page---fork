@@ -18,6 +18,7 @@ const NewCars = () => {
                         data.map(car => <Car {...car}/>)
                     }
                 </div>
+                <button className='btn-more'>View more new cars</button>
             </div>
         </section>
     )
