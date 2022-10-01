@@ -1,0 +1,18 @@
+.p-faq {
+    height: 69.4rem;
+    padding: 8rem;
+    background: url('../../assets/images/main-visual/unsplash_SV3e7hGlVnc.jpg') center;
+    background-size: cover;
+
+    &__title {
+        font-weight: 600;
+        font-size: 7.6rem;
+        // line-height: 11.4rem;
+        color: #fff
+    }
+
+    button {
+        padding: 2rem 18rem;
+        margin-top: 1.8rem;
+    }
+}
