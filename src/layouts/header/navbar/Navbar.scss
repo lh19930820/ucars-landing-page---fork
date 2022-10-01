@@ -1,5 +1,6 @@
 .navbar {
     background-color: var(--clr-black);
+    padding: 0 5rem;
 
     @media screen and (max-width: 768px) {
         display: none;
