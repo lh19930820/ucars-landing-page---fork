@@ -3,6 +3,10 @@
     // margin: 0 auto;
     position: relative;
 
+    @media screen and (max-width: 768px) {
+        padding: 0 1rem;
+    }
+
     .cars-list {
         padding-top: 16rem;
         display: flex;
@@ -12,7 +16,7 @@
 
         @media screen and (max-width: 768px) {
             display: block;
-            padding-left: 2rem;
+            // padding-left: 2rem;
             padding-right: 2rem;
             padding-top: 4.8rem;
         }

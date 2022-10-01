@@ -31,7 +31,15 @@
 
     &-items {
         display: flex;
+        // flex-wrap: wrap;
+        // justify-content: center;
         margin-top: 14.2rem;
+
+        @media screen and (max-width: 1310px) {
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
 
         @media screen and (max-width: 768px) {
             flex-direction: column;
