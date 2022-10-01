@@ -23,7 +23,9 @@
         }
 
         &__item:first-child {
-            margin-right: 4.725rem;
+            margin-right: 2.4rem;
+            padding-right: 2.3rem;
+            border-right: 1px solid #E3E3E3;
         }
 
         &__item:last-child {
