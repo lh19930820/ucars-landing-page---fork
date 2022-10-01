@@ -1,0 +1,114 @@
+.l-footer {
+    padding: 5.2rem 11.3rem;
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 2.4rem;
+        border-bottom: 1px solid #FAFAFA;
+
+        .contact {
+            font-size: 1.2rem;
+
+            ul {
+                margin-top: 1rem;
+            }
+
+            &__item {
+                margin-bottom: 8px;
+            }
+
+            &__icon {
+                margin-right: 1rem;
+            }
+        }
+
+        .menu {
+
+            &__item {
+                margin-top: 6px;
+                margin-bottom: 6px;
+            }
+
+            a {
+                font-size: 1.4rem;
+                color: #5F5F5F;
+                margin-bottom: 1.2rem;
+            }
+        }
+
+        .subscription {
+            font-size: 1.4rem;
+
+            .p-sub-form {
+                display: flex;
+                margin-top: 1.2rem;
+
+                &__input {
+                    width: 25.3rem;
+                    padding: 9px 1.4rem;
+                    outline: 1px solid #F1F1F1;
+                    border-radius: 5px 0px 0px 5px;
+
+                    &::placeholder {
+                        color: #B4B4B4;
+                        ;
+                    }
+                }
+
+                &__btn {
+                    padding: .7rem 1.6rem;
+                    border-radius: 0px 5px 5px 0px;
+                }
+            }
+
+            .socials-box {
+                display: flex;
+                margin-top: 2.3rem;
+
+                ul {
+                    display: flex;
+                    margin-left: 1rem;
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        margin-top: 2.4rem;
+
+        .legal {
+            display: flex;
+            justify-content: space-between;
+
+            ul {
+                display: flex;
+            }
+
+            &__item {
+                margin-right: 1rem;
+            }
+
+            &__link {
+                color: #232323;
+                font-size: 1.4rem;
+            }
+
+            .copyright {
+                color: #8C8C8C;
+                font-size: 1.4rem;
+            }
+        }
+        .ownership {
+            margin-top: 1.8rem;
+            font-size: 1.2rem;
+            color: #5F5F5F;
+
+            a {
+                margin-right: 7px;
+            }
+            // margin-left: 7px;
+        }
+    }
+}

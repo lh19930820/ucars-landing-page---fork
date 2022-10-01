@@ -4,6 +4,8 @@ import NewCars from "./components/new-cars/NewCars";
 import HowItWorks from "components/how-it-works/HowItWorks";
 import Featured from "components/featured/Featured";
 import FAQ from "components/faq/FAQ";
+import Terms from "components/terms/Terms";
+import Footer from "layouts/footer/Footer";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <HowItWorks/>
       <Featured/>
       <FAQ/>
+      <Terms/>
+      <Footer/>
     </div>
   );
 }

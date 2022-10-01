@@ -141,3 +141,7 @@ body {
 .u-no-wrap {
   white-space: nowrap;
 }
+
+.u-text-red {
+  color: var(--clr-red)
+}
