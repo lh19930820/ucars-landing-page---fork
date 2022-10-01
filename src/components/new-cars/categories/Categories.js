@@ -13,16 +13,16 @@ const Categories = () => {
   return (
     <div className='categories'>
       <form action="#" className='search-form'>
-        <div className={`category ${showStateDropdown && 'active'}`} onClick={() => setShowStateDropdown(!showStateDropdown)}>
+        <div className={`category ${showStateDropdown && 'active'}`}>
           <p className='category__title'>New/ Used </p>
-          <span className='category__placeholder'>New Cars</span>
+          <span className='category__placeholder' onClick={() => setShowStateDropdown(!showStateDropdown)}>New Cars</span>
           {
             showStateDropdown && <State />
           }
         </div>
-        <div className={`category ${showPriceDropdown && 'active'}`} onClick={() => setShowPriceDropdown(!showPriceDropdown)}>
+        <div className={`category ${showPriceDropdown && 'active'}`}>
           <p className='category__title'>Price Range </p>
-          <span className='category__placeholder'>
+          <span className='category__placeholder' onClick={() => setShowPriceDropdown(!showPriceDropdown)}>
             <span className="min">&#36;10,0000</span>
             <span className="max">&#36;100,0000</span>
           </span>
@@ -30,9 +30,9 @@ const Categories = () => {
             showPriceDropdown && <Price />
           }
         </div>
-        <div className={`category ${showTypeDropdown && 'active'}`} onClick={() => setShowTypeDropdown(!showTypeDropdown)}>
+        <div className={`category ${showTypeDropdown && 'active'}`}>
           <p className='category__title'>Vehicle Type </p>
-          <span className='category__placeholder'>Duplex</span>
+          <span className='category__placeholder' onClick={() => setShowTypeDropdown(!showTypeDropdown)}>Duplex</span>
           {
             showTypeDropdown && <Type />
           }
