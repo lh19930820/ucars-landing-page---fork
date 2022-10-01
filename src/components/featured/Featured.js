@@ -16,7 +16,8 @@ const Featured = () => {
     return (
         <section className="p-featured">
             <div className='container'>
-                <div className='p-featured-headline'>
+                <div className='p-featured-he
+                adline'>
                     <div>
                         <h2 className="p-featured__title">Our Featured Vehicles.</h2>
                         <p className="p-featured__text">One of our biggest product to be featured<br /> and that has sold out the most.</p>
