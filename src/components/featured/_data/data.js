@@ -23,5 +23,26 @@ export default [
         type: 'Lekki,phase 2',
         model: 'Duplex',
         price: '$2,000'
+    },
+    {
+        img: thePalace,
+        name: 'The Palace',
+        type: 'Lekki,phase 2',
+        model: 'Duplex',
+        price: '$2,000'
+    },
+    {
+        img: ivyRory,
+        name: 'IVY RORY',
+        type: 'Lekki,phase 2',
+        model: 'Duplex',
+        price: '$2,000'
+    },
+    {
+        img: rexona,
+        name: 'REXONA',
+        type: 'Lekki,phase 2',
+        model: 'Duplex',
+        price: '$2,000'
     }
 ]
