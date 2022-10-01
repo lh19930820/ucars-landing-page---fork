@@ -98,7 +98,7 @@
                 width: 12px;
                 height: 8px;
                 position: absolute;
-                right: 10%;
+                right: 0;
                 top: 50%;
                 transform: translateY(-50%);
                 background: url('../../../assets/images//icons/chevron-down.svg');
@@ -118,6 +118,17 @@
                     top: 50%;
                     background-color: #5F5F5F;
                 }
+            }
+
+            .min::before,
+            .max::before {
+                display: inline-block;
+                content: '';
+                width: 1.7rem;
+                height: 1.6rem;
+                margin-right: 5px;
+                margin-bottom: -2px;
+                background: url('../../../assets/images/icons/dollar.svg') no-repeat;
             }
         }
 
