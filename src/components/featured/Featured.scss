@@ -2,12 +2,21 @@
     padding: 8rem 0 13rem 6.4rem;
 
     @media screen and (max-width: 768px) {
-        background: #E0E0E0;;
+        background: #E0E0E0;
+        padding-top: 6rem;
     }
 
     &-headline {
         display: flex;
         justify-content: space-between;
+
+
+        div {
+            @media screen and (max-width: 768px) {
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
 
         button {
             align-self: flex-end;
@@ -24,10 +33,18 @@
         font-weight: var(--typography-h2-fw);
         line-height: var(--typography-h2-lh);
         color: var(--clr-red);
+
+        @media screen and (max-width: 768px) {
+            font-size: 3.2rem;
+        }
     }
 
     &__text {
         font-size: 3.2rem;
+
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;
+        }
     }
 
 
