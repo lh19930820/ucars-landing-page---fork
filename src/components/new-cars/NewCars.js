@@ -1,5 +1,5 @@
 import React from 'react';
-import './NewCars.css';
+import './NewCars.scss';
 import Categories from './categories/Categories';
 import Car from './car/Car';
 import data from './_data/data';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Car.css';
+import './Car.scss';
 import bmwLogo from 'assets/images/brands/bmw.svg';
 import bmw_x3 from 'assets/images/cars/bmw_x3.jpg';
 

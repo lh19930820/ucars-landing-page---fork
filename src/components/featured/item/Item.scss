@@ -1,0 +1,32 @@
+.p-featured-car {
+
+    &-details {
+        margin-top: 5.6rem;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            display: block;
+        }
+    }
+
+    .right {
+        margin-top: 2rem;
+    }
+
+    &__name {
+        font-size: 3.2rem;
+        font-weight: 500;
+    }
+
+    &__type,
+    &__model,
+    &__price {
+        font-size: 1.9rem;
+    }
+
+    &__price {
+        color: var(--clr-red);
+        font-weight: 700;
+    }
+}

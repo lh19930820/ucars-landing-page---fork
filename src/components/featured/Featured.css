@@ -1,0 +1,34 @@
+.p-featured {
+    padding: 8rem 0 13rem 6.4rem;
+}
+
+.p-featured-headline {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-featured__title {
+    font-family: var(--typography-h2-ff);
+    font-size: var(--typography-h2-fs);
+    font-weight: var(--typography-h2-fw);
+    line-height: var(--typography-h2-lh);
+    color: var(--clr-red);
+}
+
+.p-featured__text {
+    font-size: 3.2rem;
+}
+
+.p-featured-headline button {
+    align-self: flex-end;
+    margin-right: 6rem;
+    padding: 1.1rem 4.8rem;
+    font-family: var(--secondary-2-ff);
+    font-size: 1.6rem;
+}
+
+.p-featured-list {
+    margin-top: 6.7rem;
+    display: flex;
+    gap: 4rem;
+}

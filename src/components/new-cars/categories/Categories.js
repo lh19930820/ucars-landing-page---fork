@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Categories.css';
+import './Categories.scss';
 import State from './state/State';
 import Price from './price/Price';
 import Type from './type/Type';

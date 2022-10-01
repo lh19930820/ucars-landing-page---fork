@@ -58,6 +58,7 @@ html {
 body {
   font-family: var(--primary-ff);
   font-size: 1.6rem;
+  color: var(--clr-black);
 }
 
 /* container */

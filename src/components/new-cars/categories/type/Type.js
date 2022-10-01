@@ -1,5 +1,5 @@
 import React from 'react';
-import './Type.css';
+import './Type.scss';
 
 const Type = () => {
     const firstGroup = ['Bus', 'Classic Car', 'Coupe', 'Convertible', 'Hatchback'];

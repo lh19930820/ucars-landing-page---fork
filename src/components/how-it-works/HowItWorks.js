@@ -1,5 +1,5 @@
 import React from 'react';
-import './HowItWorks.css';
+import './HowItWorks.scss';
 import Item from './item/Item';
 import data from './_data/data';
 

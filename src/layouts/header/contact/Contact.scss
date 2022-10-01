@@ -1,0 +1,29 @@
+.header {
+
+    .contact {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1.6rem 0;
+
+        &-list {
+            display: flex;
+        }
+
+        &__item {
+            display: flex;
+            font-size: 1.2rem;
+
+            img {
+                margin-right: 1rem;
+            }
+        }
+
+        &__item:first-child {
+            margin-right: 4.725rem;
+        }
+
+        &__item:last-child {
+            margin-left: auto;
+        }
+    }
+}
