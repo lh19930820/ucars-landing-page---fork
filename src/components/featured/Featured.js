@@ -15,36 +15,17 @@ const Featured = () => {
         infinite: true,
         responsive: [
             {
-                breakpoint: 768,
-                settings: {
-                    className: "center",
-                    centerMode: true,
-                    centerPadding: "100px",
-                    slidesToShow: 2,
-                }
-            },
-            {
-                breakpoint: 620,
+                breakpoint: 1170,
                 settings: {
                     slidesToShow: 2,
+                    slidesToScroll: 2,
                 }
             },
             {
-                breakpoint: 570,
+                breakpoint: 700,
                 settings: {
-                    className: "center",
-                    centerMode: true,
-                    centerPadding: "100px",
                     slidesToShow: 1,
-                }
-            },
-            {
-                breakpoint: 510,
-                settings: {
-                    className: "center",
-                    centerMode: true,
-                    centerPadding: "10px",
-                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             }
         ]
@@ -55,8 +36,8 @@ const Featured = () => {
             <div className='container'>
                 <div className='p-featured-headline'>
                     <div>
-                        <h2 className="p-featured__title">Our Featured Vehicles.</h2>
-                        <p className="p-featured__text">One of our biggest product to be featured<br /> and that has sold out the most.</p>
+                        <h2 className="p-featured__title u-no-wrap">Our Featured Vehicles.</h2>
+                        <p className="p-featured__text">One of our biggest product to be featured and that has sold out the most.</p>
                     </div>
                     {
                         !isMobile && <button className='btn--primary u-border-radius-sm'>View More</button>

@@ -1,10 +1,12 @@
 .p-hiw {
     margin-top: 5rem;
     background: var(--clr-black);
+    padding: 2rem 7rem 10rem;
+    color: #fff;
 
-    .container {
-        color: #fff;
-        padding: 2rem 7rem 10rem;
+    @media screen and (max-width: 768px) {
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
     }
 
     &__title {
@@ -31,8 +33,6 @@
 
     &-items {
         display: flex;
-        // flex-wrap: wrap;
-        // justify-content: center;
         margin-top: 14.2rem;
 
         @media screen and (max-width: 1310px) {

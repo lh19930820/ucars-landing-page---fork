@@ -29,5 +29,9 @@
     &__btn {
         font-family: var(--secondary-2-ff);
         padding: 1rem 6.8rem;
+
+        @media screen and (max-width: 844px) {
+            padding: .5rem 3rem;
+        }
     }
 }
