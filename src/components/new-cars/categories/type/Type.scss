@@ -1,8 +1,13 @@
 .sub-menu-type {
+    z-index: 9;
 
     .top {
         display: flex;
         font-size: 1.4rem;
+
+        @media screen and (max-width: 768px) {
+            flex-wrap: wrap;
+        }
 
         .group {
             display: flex;

@@ -154,6 +154,10 @@
         left: 0;
         z-index: 1;
 
+        @media screen and (max-width: 440px) {
+            width: 100%;
+        }
+
         .top {
             padding-bottom: 2.4rem;
             border-bottom: 1px solid var(--clr-grey-light);
