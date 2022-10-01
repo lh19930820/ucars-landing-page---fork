@@ -1,7 +1,6 @@
 import markerIcon from 'assets/images/how-it-works/marker.svg';
 import paymentIcon from 'assets/images/how-it-works/payment.svg';
 import lockIcon from 'assets/images/how-it-works/official.svg';
-// import lockIcon from 'assets/images/getting_new_ride.jpg';
 
 export default [
     {
@@ -19,7 +18,7 @@ export default [
         text: 'Our estates comes with good network,portable water , 24hrs light and round the clock security.'
     },
     {
-        icon: lockIcon,
+        img: lockIcon,
         width: 141,
         height: 132,
         title: 'Make it Official',

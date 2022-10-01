@@ -4,7 +4,6 @@ import Item from './item/Item';
 import data from './_data/data';
 
 const HowItWorks = () => {
-    console.log(data)
     return (
         <section className='p-hiw'>
             <div className='container'>
