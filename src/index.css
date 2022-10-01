@@ -92,6 +92,14 @@ body {
 
 /* utils */
 
+.u-d-block {
+  display: block;
+}
+
+.u-d-none {
+  display: none;
+}
+
 .u-border-radius-md {
   border-radius: 8px;
 }
