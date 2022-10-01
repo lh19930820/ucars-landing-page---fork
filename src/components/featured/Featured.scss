@@ -4,6 +4,7 @@
     @media screen and (max-width: 768px) {
         background: #E0E0E0;
         padding-top: 6rem;
+        padding-bottom: 6rem;
     }
 
     &-headline {
@@ -50,5 +51,15 @@
 
     &-list {
         margin-top: 6.7rem;
+    }
+
+    .btn-sp {
+        display: block;
+        padding: 1.1rem 4.8rem;
+        font-family: var(--secondary-2-ff);
+        font-size: 1.6rem;
+        margin-top: 4.3rem;
+        margin-left: auto;
+        margin-right: 1.6rem;
     }
 }

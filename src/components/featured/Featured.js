@@ -69,6 +69,9 @@ const Featured = () => {
                         }
                     </Slider>
                 </div>
+                {
+                    isMobile && <button className='btn--primary u-border-radius-sm btn-sp'>View More</button>
+                }
             </div>
         </section>
     )
