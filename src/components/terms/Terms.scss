@@ -3,6 +3,10 @@
     padding: 4rem 9rem;
     background-color: #F1F1F1;
 
+    @media screen and (max-width: 375px) {
+        display: none;
+    }
+
     &__heading {
         // font-weight: 600;
         margin-bottom: 1.6rem;

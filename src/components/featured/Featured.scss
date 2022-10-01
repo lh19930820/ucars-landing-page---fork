@@ -1,6 +1,10 @@
 .p-featured {
     padding: 8rem 0 13rem 6.4rem;
 
+    @media screen and (max-width: 768px) {
+        background: #E0E0E0;;
+    }
+
     &-headline {
         display: flex;
         justify-content: space-between;
@@ -29,7 +33,5 @@
 
     &-list {
         margin-top: 6.7rem;
-        // display: flex;
-        // gap: 4rem;
     }
 }

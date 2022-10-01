@@ -4,15 +4,36 @@
     background: url('../../assets/images/main-visual/unsplash_SV3e7hGlVnc.jpg') center;
     background-size: cover;
 
+    @media screen and (max-width: 375px) {
+        background: url('../../assets/images/main-visual/unsplash_SV3e7hGlVnc-sp.jpg') center no-repeat;
+    }
+
+    // @media screen and (max-width: 768px) {
+    //     display: flex;
+    //     justify-content: center;
+    // }
+
     &__title {
         font-weight: 600;
         font-size: 7.6rem;
         // line-height: 11.4rem;
-        color: #fff
+        color: #fff;
+
+        @media screen and (max-width: 768px) {
+            font-size: 4.8rem;
+            text-align: center;
+        }
     }
 
     button {
         padding: 2rem 18rem;
         margin-top: 1.8rem;
+
+        @media screen and (max-width: 768px) {
+            // align-self: flex-end;
+            display: block;
+            margin: 0 auto;
+            margin-top: 18.6rem;
+        }
     }
 }

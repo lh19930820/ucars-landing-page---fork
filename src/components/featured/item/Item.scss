@@ -1,6 +1,11 @@
 .p-featured-car {
     width: 35.1rem;
 
+    @media screen and (max-width: 768px) {
+        background: #fff;
+        border-radius: 0px 39.7214px;
+    }
+
     &-details {
         margin-top: 5.6rem;
         display: flex;
