@@ -1,7 +1,6 @@
 .categories {
     width: 90%;
     max-width: 124.2rem;
-    /* padding: 4rem;  */
     background-color: #fff;
     position: absolute;
     left: 50%;
@@ -35,7 +34,11 @@
     .category {
         position: relative;
         padding: 4rem;
-
+        &.active{
+            .sub-menu {
+                display: block;
+            }
+        }
         @media screen and (max-width: 768px) {
             padding: 3rem;
 
@@ -164,6 +167,7 @@
         top: 100%;
         left: 0;
         z-index: 1;
+        display: none;
 
         @media screen and (max-width: 440px) {
             width: 100%;

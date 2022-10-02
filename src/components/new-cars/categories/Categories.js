@@ -1,42 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Categories.scss';
 import State from './state/State';
 import Price from './price/Price';
-import Type from './type/Type';
-
+import useOutsideClick from 'hooks/useOutsideClick';
+import SelectBox from 'components/select-box/SelectBox';
 const Categories = () => {
-  const [showStateDropdown, setShowStateDropdown] = useState(false);
-  const [showPriceDropdown, setShowPriceDropdown] = useState(false);
-  const [showTypeDropdown, setShowTypeDropdown] = useState(false);
-
 
   return (
     <div className='categories'>
       <form action="#" className='search-form'>
-        <div className={`category ${showStateDropdown && 'active'}`}>
-          <p className='category__title'>New/ Used </p>
-          <span className='category__placeholder' onClick={() => setShowStateDropdown(!showStateDropdown)}>New Cars</span>
-          {
-            showStateDropdown && <State />
-          }
-        </div>
-        <div className={`category ${showPriceDropdown && 'active'}`}>
-          <p className='category__title'>Price Range </p>
-          <span className='category__placeholder' onClick={() => setShowPriceDropdown(!showPriceDropdown)}>
-            <span className="min">&#36;10,0000</span>
-            <span className="max">&#36;100,0000</span>
-          </span>
-          {
-            showPriceDropdown && <Price />
-          }
-        </div>
-        <div className={`category ${showTypeDropdown && 'active'}`}>
-          <p className='category__title'>Vehicle Type </p>
-          <span className='category__placeholder' onClick={() => setShowTypeDropdown(!showTypeDropdown)}>Duplex</span>
-          {
-            showTypeDropdown && <Type />
-          }
-        </div>
+        <SelectBox title="New/ Used" placeholder="New/ Used ">
+          <State title=""/>
+        </SelectBox>
+        <SelectBox title="Price Range" placeholder='<span className="min">&#36;10,0000</span>
+            <span className="max">&#36;100,0000</span>' >
+          <Price />
+        </SelectBox>
+        <SelectBox title="Vehicle Type " placeholder="Duplex" >
+          <Price />
+        </SelectBox>
         <button type='submit' className='category__btn btn--primary u-border-radius-sm'>Search</button>
       </form>
     </div>
